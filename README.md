@@ -27,10 +27,11 @@ An Arduino reads a photoresistor and streams light levels over USB. A Python scr
 5. Run `python python/logger.py`. Close the plot window to save `light_log.csv`.
 
 ## What I learned
+- I learned how to use a voltage divider to reduce signal so microcontroller can read it safely
+- I learned how we can use serial communication to connect the Arduino with the computer
+- 
 
-- [One or two sentences in your own words, e.g., what the voltage divider does, or a bug you fixed]
-- [e.g., why the moving average makes the alert less jumpy]
 
 ## Next steps
 
-- [e.g., add a second sensor, or log for a full day and plot the light pattern]
+- For the next step, I can probably plot for a full day and see the light pattern. 
